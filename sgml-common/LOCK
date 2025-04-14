@@ -1,4 +1,4 @@
-repo = "main"
+repo = "testing"
 name = "sgml-common"
 version = "0.6.3"
 description = "Tools for maintaining centralized SGML catalogs"
@@ -6,7 +6,7 @@ categories = [
     "utils",
     "doc",
 ]
-timestamp = "2025-04-13 21:50:46"
+timestamp = "2025-04-13 21:51:04"
 dependencies = ["bash"]
 upstream = "https://docbook.org/xml/"
 
