@@ -1,30 +1,20 @@
 repo = "testing"
 name = "efibootmgr"
 version = "18"
-timestamp = "2025-04-14 23:09:56"
+timestamp = "2025-04-14 23:13:25"
 description = "User-space application to modify the EFI Boot Manager"
 upstream = "https://github.com/rhboot/efibootmgr.git"
 version_command = "git ls-remote --tags --refs 'https://github.com/rhboot/efibootmgr.git' | sed 's@.*/@@' | grep -E '^[0-9]+$' | tail -n1"
 
 [[dependencies]]
+package = "main/efivar/efivar"
 optional = false
 runtime = false
-
-[dependencies.package]
-repo = "main/efivar"
-name = "efivar"
-version = ""
-timestamp = "2025-04-14 23:09:56"
 
 [[dependencies]]
+package = "main/popt/popt"
 optional = false
 runtime = false
-
-[dependencies.package]
-repo = "main/popt"
-name = "popt"
-version = ""
-timestamp = "2025-04-14 23:09:56"
 
 [source]
 kind = "Tarball"
