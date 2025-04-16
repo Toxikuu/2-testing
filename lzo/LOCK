@@ -1,0 +1,10 @@
+repo = "testing"
+name = "lzo"
+version = "2.10"
+timestamp = "2025-04-16 16:35:03"
+categories = ["lib"]
+description = "Real-time (de)compression library favoring speed"
+
+[source]
+kind = "Tarball"
+url = "http://www.oberhumer.com/opensource/lzo/download/lzo-2.10.tar.gz"
