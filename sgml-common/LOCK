@@ -1,19 +1,20 @@
 repo = "testing"
 name = "sgml-common"
 version = "0.6.3"
-description = "Tools for maintaining centralized SGML catalogs"
+timestamp = "2025-04-15 23:12:10"
 categories = [
     "utils",
     "doc",
 ]
-timestamp = "2025-04-13 21:51:04"
-dependencies = ["bash"]
+description = "Tools for maintaining centralized SGML catalogs"
+extra = ["https://www.linuxfromscratch.org/patches/blfs/svn/sgml-common-0.6.3-manpage-1.patch"]
 upstream = "https://docbook.org/xml/"
 
-[source]
-url = "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
-hash = "fcQYwdNhEj_8XkXWHxuXJXlAqOs10L-7xJM4HMWx-Vk"
+[[dependencies]]
+relpath = "main/bash"
+optional = false
+runtime = false
 
-[[extra]]
-url = "https://www.linuxfromscratch.org/patches/blfs/svn/sgml-common-0.6.3-manpage-1.patch"
-hash = "UNk69wSghp-vj-310jsan5D_9kmfTBHPSt215GC3tYs"
+[source]
+kind = "Tarball"
+url = "https://sourceware.org/ftp/docbook-tools/new-trials/SOURCES/sgml-common-0.6.3.tgz"
