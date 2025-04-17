@@ -1,0 +1,14 @@
+repo = "testing"
+name = "imdb"
+version = "0.9.31"
+timestamp = "2025-04-16 22:15:50"
+categories = [
+    "lib",
+    "db",
+]
+description = "Fast, compact, key-value embedded data store"
+upstream = "https://github.com/LMDB/lmdb.git"
+
+[source]
+kind = "Tarball"
+url = "https://github.com/LMDB/lmdb/archive/LMDB_0.9.31.tar.gz"
