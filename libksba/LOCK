@@ -1,0 +1,16 @@
+repo = "testing"
+name = "libksba"
+version = "1.6.7"
+timestamp = "2025-04-16 22:11:36"
+categories = ["lib"]
+description = "Library for working with X.509 certificates, CMS data and related objects"
+upstream = "https://github.com/gpg/libksba.git"
+
+[[dependencies]]
+relpath = "main/libgpg-error"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://www.gnupg.org/ftp/gcrypt/libksba/libksba-1.6.7.tar.bz2"
