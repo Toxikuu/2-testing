@@ -1,1 +1,11 @@
 [3a2904e5b706c32ba85b816f5c9277f426b73bea] [2025-04-17 03:08:32] | Added gnupg=2.4.7
+[On branch master
+Your branch is ahead of 'origin/master' by 78 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   efibootmgr/BUILD
+
+no changes added to commit (use "git add" and/or "git commit -a")] [2025-04-17 03:27:48] | Added alias testing/gpg for testing/gnupg
