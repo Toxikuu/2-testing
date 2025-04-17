@@ -1,7 +1,7 @@
 repo = "testing"
 name = "hyperfine"
 version = "3cedcc38d0c430cbf38b4364b441c43a938d2bf3"
-timestamp = "2025-04-16 20:33:22"
+timestamp = "2025-04-16 20:41:51"
 categories = [
     "cli",
     "utils",
