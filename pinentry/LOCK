@@ -1,0 +1,21 @@
+repo = "testing"
+name = "pinentry"
+version = "1.3.1"
+timestamp = "2025-04-16 22:24:15"
+categories = ["lib"]
+description = "Collection of simple PIN entry dialogs"
+upstream = "https://github.com/gpg/pinentry.git"
+
+[[dependencies]]
+relpath = "main/libassuan"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/libgpg-error"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://www.gnupg.org/ftp/gcrypt/pinentry/pinentry-1.3.1.tar.bz2"
