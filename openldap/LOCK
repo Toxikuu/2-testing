@@ -1,0 +1,17 @@
+repo = "testing"
+name = "openldap"
+version = "2.6.9"
+timestamp = "2025-04-16 22:21:56"
+categories = ["lib"]
+description = "Lightweight Directory Access Protocol implementation"
+extra = ["https://www.linuxfromscratch.org/patches/blfs/svn/openldap-2.6.9-consolidated-1.patch"]
+upstream = "https://git.openldap.org/openldap/openldap.git"
+
+[[dependencies]]
+relpath = "testing/cyrus-sasl"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://www.openldap.org/software/download/OpenLDAP/openldap-release/openldap-2.6.9.tgz"
