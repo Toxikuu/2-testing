@@ -1,0 +1,49 @@
+repo = "testing"
+name = "gpg"
+version = "2.4.7"
+timestamp = "2025-04-16 22:27:58"
+categories = [
+    "sec",
+    "utils",
+]
+description = "GNU's implementation of Pretty Good Privacy"
+upstream = "https://github.com/gpg/gnupg.git"
+
+[[dependencies]]
+relpath = "main/libassuan"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/libgcrypt"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/libksba"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/npth"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/openldap"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/gnutls"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/pinentry"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://www.gnupg.org/ftp/gcrypt/gnupg/gnupg-2.4.7.tar.bz2"
