@@ -17,9 +17,9 @@ cbr
 
 install -vDm755 "target/release/$NAME" -t "$D/usr/bin"
 
-install -vDm644 "target/release/build/$NAME-"*"/out/$NAME.bash" "$D/usr/share/bash-completion/completions/$NAME"
-install -vDm644 "target/release/build/$NAME-"*"/out/$NAME.fish" "$D/usr/share/fish/vendor_completions.d/$NAME.fish"
-install -vDm644 "target/release/build/$NAME-"*"/out/$NAME"      "$D/usr/share/zsh/site-functions/_$NAME"
+install -vDm644 target/release/build/${NAME}-*/out/${NAME}.bash "$D/usr/share/bash-completion/completions/$NAME"
+install -vDm644 target/release/build/${NAME}-*/out/${NAME}.fish "$D/usr/share/fish/vendor_completions.d/$NAME.fish"
+install -vDm644 target/release/build/${NAME}-*/out/${NAME}      "$D/usr/share/zsh/site-functions/_$NAME"
 
 install -vDm644 "doc/$NAME.1" "$D/usr/share/man/man1/$NAME.1"
 install -vDm755 scripts/*.py -t "$D/usr/lib/$NAME/scripts" 
