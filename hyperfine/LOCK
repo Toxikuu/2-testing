@@ -1,0 +1,19 @@
+repo = "testing"
+name = "hyperfine"
+version = "3cedcc38d0c430cbf38b4364b441c43a938d2bf3"
+timestamp = "2025-04-16 20:30:29"
+categories = [
+    "cli",
+    "utils",
+]
+description = "Benchmarking tool"
+upstream = "https://github.com/sharkdp/hyperfine.git"
+
+[[dependencies]]
+relpath = "tox/rust"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/sharkdp/hyperfine/archive/3cedcc38d0c430cbf38b4364b441c43a938d2bf3.tar.gz"
