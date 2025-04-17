@@ -1,0 +1,11 @@
+repo = "testing"
+name = "npth"
+version = "1.8"
+timestamp = "2025-04-16 22:12:33"
+categories = ["lib"]
+description = "The new GNU portable threads library"
+upstream = "https://github.com/gpg/npth.git"
+
+[source]
+kind = "Tarball"
+url = "https://www.gnupg.org/ftp/gcrypt/npth/npth-1.8.tar.bz2"
