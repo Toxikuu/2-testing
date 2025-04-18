@@ -9,7 +9,15 @@ SOURCE="https://go.dev/dl/go$VERS.linux-amd64.tar.gz"
 EXTRA=()
 EXTRACT=1
 
-2b() {
+2preinstall() {
+
+    # Upstream recommends removing any previous Go install
+    # https://go.dev/doc/install
+    rm -rf "/opt/go"
+
+}
+
+2build() {
 
 mkdir -pv "$D/opt"
 tar xf "$SRC/go=$VERS.tar.gz" -C "$D/opt"
