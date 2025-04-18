@@ -1,13 +1,14 @@
 repo = "testing"
 name = "gpg"
 version = "2.4.7"
-timestamp = "2025-04-16 22:27:58"
+timestamp = "2025-04-18 12:58:37"
 categories = [
     "sec",
     "utils",
 ]
 description = "GNU's implementation of Pretty Good Privacy"
 upstream = "https://github.com/gpg/gnupg.git"
+version_command = "git ls-remote --tags --refs 'https://github.com/gpg/gnupg.git' | sed 's@.*/@@' | grep 'gnupg-[0-9]' | grep -Ev 'rc|base|alpha|beta' | sort -V | tail -n1"
 
 [[dependencies]]
 relpath = "main/libassuan"
