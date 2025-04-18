@@ -1,0 +1,14 @@
+repo = "testing"
+name = "guile"
+version = "3.0.10"
+timestamp = "2025-04-17 23:13:21"
+categories = [
+    "dev",
+    "lib",
+]
+description = "Portable, embeddable Scheme implementation written in C"
+upstream = "https://git.savannah.gnu.org/git/guile.git"
+
+[source]
+kind = "Tarball"
+url = "https://ftp.gnu.org/gnu/guile/guile-3.0.10.tar.xz"
