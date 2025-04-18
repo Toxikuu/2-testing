@@ -1,13 +1,14 @@
 repo = "testing"
 name = "libgcrypt"
 version = "1.11.0"
-timestamp = "2025-04-17 23:15:52"
+timestamp = "2025-04-18 12:53:07"
 categories = [
     "lib",
     "sec",
 ]
 description = "General purpose crypto library used by GnuPG"
 upstream = "https://github.com/gpg/libgcrypt.git"
+version_command = "git ls-remote --tags --refs 'https://github.com/gpg/libgcrypt.git' | sed 's@.*/@@' | grep 'libgcrypt-' | grep -Ev 'base|beta|rc' | sort -V | tail -n1"
 
 [[dependencies]]
 relpath = "main/libgpg-error"
