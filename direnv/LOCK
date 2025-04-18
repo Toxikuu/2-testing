@@ -1,0 +1,19 @@
+repo = "testing"
+name = "direnv"
+version = "2.36.0"
+timestamp = "2025-04-17 20:05:00"
+categories = [
+    "utils",
+    "cli",
+]
+description = "Utility for directory specific environments"
+upstream = "https://github.com/direnv/direnv.git"
+
+[[dependencies]]
+relpath = "testing/go"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/direnv/direnv/archive/refs/tags/v2.36.0.tar.gz"
