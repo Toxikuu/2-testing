@@ -1,13 +1,14 @@
 repo = "testing"
 name = "lmdb"
 version = "0.9.31"
-timestamp = "2025-04-16 22:18:53"
+timestamp = "2025-04-18 12:56:06"
 categories = [
     "lib",
     "db",
 ]
 description = "Fast, compact, key-value embedded data store"
 upstream = "https://github.com/LMDB/lmdb.git"
+version_command = "git ls-remote --tags --refs 'https://github.com/LMDB/lmdb.git' | sed 's@.*/@@' | grep '^LMDB_' | cut -d_ -f2 | sort -V | tail -n1"
 
 [source]
 kind = "Tarball"
