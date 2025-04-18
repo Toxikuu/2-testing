@@ -3,6 +3,7 @@ VERS="2.6.9"
 DESC="Lightweight Directory Access Protocol implementation"
 CATG="lib"
 UPST="https://git.$NAME.org/$NAME/$NAME.git"
+VCMD="git ls-remote --tags --refs '$UPST' | sed 's@.*/@@' | grep '^OPENLDAP_REL_ENG_' | cut -d_ -f4- | sed 's,_,.,g' | grep -v '[a-Z]' | sort -V | tail -n1"
 DEPS=(
     "cyrus-sasl"
 )
