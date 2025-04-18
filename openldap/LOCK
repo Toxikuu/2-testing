@@ -1,11 +1,12 @@
 repo = "testing"
 name = "openldap"
 version = "2.6.9"
-timestamp = "2025-04-16 22:21:56"
+timestamp = "2025-04-18 12:54:50"
 categories = ["lib"]
 description = "Lightweight Directory Access Protocol implementation"
 extra = ["https://www.linuxfromscratch.org/patches/blfs/svn/openldap-2.6.9-consolidated-1.patch"]
 upstream = "https://git.openldap.org/openldap/openldap.git"
+version_command = "git ls-remote --tags --refs 'https://git.openldap.org/openldap/openldap.git' | sed 's@.*/@@' | grep '^OPENLDAP_REL_ENG_' | cut -d_ -f4- | sed 's,_,.,g' | grep -v '[a-Z]' | sort -V | tail -n1"
 
 [[dependencies]]
 relpath = "testing/cyrus-sasl"
