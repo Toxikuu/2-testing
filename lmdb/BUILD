@@ -3,6 +3,7 @@ VERS="0.9.31"
 DESC="Fast, compact, key-value embedded data store"
 CATG="lib db"
 UPST="https://github.com/LMDB/lmdb.git"
+VCMD="git ls-remote --tags --refs '$UPST' | sed 's@.*/@@' | grep '^LMDB_' | cut -d_ -f2 | sort -V | tail -n1"
 DEPS=()
 
 SOURCE="${UPST%.git}/archive/LMDB_$VERS.tar.gz"
