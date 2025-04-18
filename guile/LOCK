@@ -1,13 +1,18 @@
 repo = "testing"
 name = "guile"
 version = "3.0.10"
-timestamp = "2025-04-17 23:13:21"
+timestamp = "2025-04-17 23:16:15"
 categories = [
     "dev",
     "lib",
 ]
 description = "Portable, embeddable Scheme implementation written in C"
 upstream = "https://git.savannah.gnu.org/git/guile.git"
+
+[[dependencies]]
+relpath = "testing/gc"
+optional = false
+runtime = false
 
 [source]
 kind = "Tarball"
