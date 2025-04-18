@@ -1,13 +1,14 @@
 repo = "testing"
 name = "guile"
 version = "3.0.10"
-timestamp = "2025-04-17 23:16:15"
+timestamp = "2025-04-18 12:57:05"
 categories = [
     "dev",
     "lib",
 ]
 description = "Portable, embeddable Scheme implementation written in C"
 upstream = "https://git.savannah.gnu.org/git/guile.git"
+version_command = "git ls-remote --tags --refs https://git.savannah.gnu.org/git/guile.git | sed 's@.*/@@' | grep '^v[0-9]' | grep -Ev 'rc|alpha|beta' | sort -V | tail -n1"
 
 [[dependencies]]
 relpath = "testing/gc"
