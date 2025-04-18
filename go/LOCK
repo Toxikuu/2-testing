@@ -1,0 +1,14 @@
+repo = "testing"
+name = "go"
+version = "1.24.2"
+timestamp = "2025-04-17 20:04:57"
+categories = [
+    "lang",
+    "dev",
+]
+description = "The Go programming langueage"
+upstream = "https://github.com/golang/go.git"
+
+[source]
+kind = "Tarball"
+url = "https://go.dev/dl/go1.24.2.linux-amd64.tar.gz"
