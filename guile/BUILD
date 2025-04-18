@@ -3,7 +3,9 @@ VERS="3.0.10"
 DESC="Portable, embeddable Scheme implementation written in C"
 CATG="dev lib"
 UPST="https://git.savannah.gnu.org/git/guile.git"
-DEPS=()
+DEPS=(
+    "gc"
+)
 
 SOURCE="https://ftp.gnu.org/gnu/guile/guile-$VERS.tar.xz"
 EXTRA=()
