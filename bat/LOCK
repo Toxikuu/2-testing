@@ -1,0 +1,19 @@
+repo = "testing"
+name = "bat"
+version = "98c9a5d948d6d26af52c51b6fb845ee5f5e6f7ea"
+timestamp = "2025-04-17 20:56:08"
+categories = [
+    "utils",
+    "tui",
+]
+description = "Cat clone with syntax highlighting and git integration"
+upstream = "https://github.com/sharkdp/bat.git"
+
+[[dependencies]]
+relpath = "tox/rust"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/sharkdp/bat/archive/98c9a5d948d6d26af52c51b6fb845ee5f5e6f7ea.tar.gz"
