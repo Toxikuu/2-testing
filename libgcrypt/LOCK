@@ -1,5 +1,6 @@
 repo = "testing"
 name = "libgcrypt"
+<<<<<<< HEAD
 version = "1.11.0"
 timestamp = "2025-04-16 22:10:27"
 categories = [
@@ -17,3 +18,7 @@ runtime = false
 [source]
 kind = "Tarball"
 url = "https://www.gnupg.org/ftp/gcrypt/libgcrypt/libgcrypt-1.11.0.tar.bz2"
+=======
+version = ""
+timestamp = "2025-04-17 23:13:53"
+>>>>>>> master

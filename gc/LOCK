@@ -1,0 +1,14 @@
+repo = "testing"
+name = "gc"
+version = "8.2.8"
+timestamp = "2025-04-17 23:10:41"
+categories = [
+    "lib",
+    "dev",
+]
+description = "Boehm-Demers-Weiser garbage collector"
+upstream = "https://github.com/ivmai/bdwgc.git"
+
+[source]
+kind = "Tarball"
+url = "https://github.com/ivmai/bdwgc/releases/download/v8.2.8/gc-8.2.8.tar.gz"
