@@ -3,7 +3,8 @@ VERS="2.4.7"
 DESC="GNU's implementation of Pretty Good Privacy"
 CATG="sec utils"
 UPST="https://github.com/gpg/gnupg.git"
-VCMD="git ls-remote --tags --refs '$UPST' | sed 's@.*/@@' | grep 'gnupg-[0-9]' | grep -Ev 'rc|base|alpha|beta' | sort -V | tail -n1 | cut -d- -f2"
+# Grep for stable minor part (even)
+VCMD="git ls-remote --tags --refs '$UPST' | sed 's@.*/@@' | grep 'gnupg-[0-9]\+\..*[02468]\.' | grep -Ev 'rc|base|alpha|beta' | sort -V | tail -n1 | cut -d- -f2"
 DEPS=(
     "libassuan"
     "libgcrypt"
