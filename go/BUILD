@@ -3,6 +3,7 @@ VERS="1.24.2"
 DESC="The Go programming langueage"
 CATG="lang dev"
 UPST="https://github.com/golang/go.git"
+VCMD="git ls-remote --tags --refs '$UPST' | sed 's@.*/@@' | grep '^go' | grep -Ev 'rc|alpha|beta' | sort -V | tail -n1"
 DEPS=()
 
 SOURCE="https://go.dev/dl/go$VERS.linux-amd64.tar.gz"
