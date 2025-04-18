@@ -7,10 +7,15 @@ DEPS=()
 
 SOURCE="https://go.dev/dl/go$VERS.linux-amd64.tar.gz"
 EXTRA=()
+EXTRACT=1
 
 2b() {
 
-mkdir -pv "$D"
-tar xf "$SRC/go$VERS.linux-amd64.tar.gz" -C "$D"
+mkdir -pv "$D/opt"
+tar xf "$SRC/go=$VERS.tar.gz" -C "$D/opt"
+
+# cleanup
+rm -rvf "$D/opt/"{test,doc,api}
+rm -vf "$D/opt/"{VERSION,PATENTS,SECURITY.md,codereview.cfg}
 
 }
