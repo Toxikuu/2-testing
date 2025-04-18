@@ -1,13 +1,14 @@
 repo = "testing"
 name = "go"
 version = "1.24.2"
-timestamp = "2025-04-17 20:16:22"
+timestamp = "2025-04-18 12:51:32"
 categories = [
     "lang",
     "dev",
 ]
 description = "The Go programming langueage"
 upstream = "https://github.com/golang/go.git"
+version_command = "git ls-remote --tags --refs 'https://github.com/golang/go.git' | sed 's@.*/@@' | grep '^go' | grep -Ev 'rc|alpha|beta' | sort -V | tail -n1"
 
 [source]
 kind = "Tarball"
