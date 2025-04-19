@@ -1,0 +1,11 @@
+repo = "testing"
+name = "evtest"
+version = "3fe3ce98d81ae8b00156933ddb86b92a874cba6a"
+timestamp = "2025-04-18 19:54:58"
+categories = ["utils"]
+description = "Kernel evdev device information and monitor"
+upstream = "https://gitlab.freedesktop.org/libevdev/evtest.git"
+
+[source]
+kind = "Tarball"
+url = "https://gitlab.freedesktop.org/libevdev/evtest/-/archive/3fe3ce98d81ae8b00156933ddb86b92a874cba6a/evtest-3fe3ce98d81ae8b00156933ddb86b92a874cba6a.tar.bz2"
