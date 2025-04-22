@@ -1,0 +1,41 @@
+repo = "testing"
+name = "xdg-desktop-portal"
+version = "1.20.0"
+timestamp = "2025-04-22 14:07:20"
+categories = ["lib"]
+description = "Desktop integration portals for sandboxed apps"
+upstream = "https://github.com/flatpak/xdg-desktop-portal.git"
+
+[[dependencies]]
+relpath = "main/fuse3"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/gdk-pixbuf"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/json-glib"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/pipewire"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/dbus"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/bubblewrap"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/flatpak/xdg-desktop-portal/releases/download/1.20.0/xdg-desktop-portal-1.20.0.tar.xz"
