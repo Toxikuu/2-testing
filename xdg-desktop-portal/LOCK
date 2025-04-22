@@ -1,7 +1,7 @@
 repo = "testing"
 name = "xdg-desktop-portal"
 version = "1.20.0"
-timestamp = "2025-04-22 14:07:20"
+timestamp = "2025-04-22 14:07:33"
 categories = ["lib"]
 description = "Desktop integration portals for sandboxed apps"
 upstream = "https://github.com/flatpak/xdg-desktop-portal.git"
@@ -33,6 +33,11 @@ runtime = false
 
 [[dependencies]]
 relpath = "main/bubblewrap"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/xdg-desktop-portal-gtk"
 optional = false
 runtime = false
 
