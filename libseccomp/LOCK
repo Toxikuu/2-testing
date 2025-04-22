@@ -1,7 +1,7 @@
 repo = "testing"
 name = "libseccomp"
 version = "2.6.0"
-timestamp = "2025-04-22 13:56:39"
+timestamp = "2025-04-22 14:11:47"
 categories = ["lib"]
 description = "Easy, platform independent interface to the Linux kernel's syscall filtering mechanism."
 upstream = "https://github.com/seccomp/libseccomp.git"
