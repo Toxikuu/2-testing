@@ -1,0 +1,114 @@
+repo = "testing"
+name = "flatpak"
+version = "1.16.0"
+timestamp = "2025-04-22 14:18:52"
+categories = [
+    "bin",
+    "utils",
+]
+description = "Linux application sandboxing and distribution framework"
+upstream = "https://github.com/flatpak/flatpak.git"
+
+[[dependencies]]
+relpath = "main/appstream"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/dbus"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/fuse3"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/glib"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/gpgme"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/json-glib"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/libsoup3"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/elogind"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/ostree"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/p11-kit"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/pyparsing"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/appstream-glib"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/bubblewrap"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/curl"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/libarchive"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/libseccomp"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "xorg/libxau"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "main/libxml2"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/xdg-dbus-proxy"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/xdg-desktop-portal"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/flatpak/flatpak/releases/download/1.16.0/flatpak-1.16.0.tar.xz"
