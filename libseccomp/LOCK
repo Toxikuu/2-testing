@@ -1,0 +1,11 @@
+repo = "testing"
+name = "libseccomp"
+version = "2.6.0"
+timestamp = "2025-04-22 13:56:39"
+categories = ["lib"]
+description = "Easy, platform independent interface to the Linux kernel's syscall filtering mechanism."
+upstream = "https://github.com/seccomp/libseccomp.git"
+
+[source]
+kind = "Tarball"
+url = "https://github.com/seccomp/libseccomp/releases/download/v2.6.0/libseccomp-2.6.0.tar.gz"
