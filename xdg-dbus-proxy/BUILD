@@ -14,9 +14,6 @@ EXTRA=()
 
 with meson ninja
 
-mkdir -pv build
-cd        build
-
 ms
 nj
 ni
