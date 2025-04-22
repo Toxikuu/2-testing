@@ -1,7 +1,7 @@
 repo = "testing"
 name = "xdg-desktop-portal"
 version = "1.20.0"
-timestamp = "2025-04-22 14:12:50"
+timestamp = "2025-04-22 14:13:35"
 categories = ["lib"]
 description = "Desktop integration portals for sandboxed apps"
 upstream = "https://github.com/flatpak/xdg-desktop-portal.git"
