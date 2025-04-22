@@ -14,7 +14,7 @@ DEPS=(
     "bubblewrap"
 
     # one of several, used because this is the lightest
-    "run^xdg-desktop-portal-gtk"
+    "r^xdg-desktop-portal-gtk"
 )
 
 SOURCE="${UPST%.git}/releases/download/$VERS/$NAME-$VERS.tar.xz"
