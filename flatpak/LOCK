@@ -1,7 +1,7 @@
 repo = "testing"
 name = "flatpak"
 version = "1.16.0"
-timestamp = "2025-04-22 14:18:52"
+timestamp = "2025-04-22 14:24:11"
 categories = [
     "bin",
     "utils",
