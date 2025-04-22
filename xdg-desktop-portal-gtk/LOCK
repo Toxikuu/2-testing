@@ -1,0 +1,21 @@
+repo = "testing"
+name = "xdg-desktop-portal-gtk"
+version = "1.15.3"
+timestamp = "2025-04-22 14:07:24"
+categories = ["lib"]
+description = "GTK-based xdg-desktop-portal backend"
+upstream = "https://github.com/flatpak/xdg-desktop-portal-gtk.git"
+
+[[dependencies]]
+relpath = "main/gtk3"
+optional = false
+runtime = false
+
+[[dependencies]]
+relpath = "testing/xdg-desktop-portal"
+optional = false
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://github.com/flatpak/xdg-desktop-portal-gtk/releases/download/1.15.3/xdg-desktop-portal-gtk-1.15.3.tar.xz"
