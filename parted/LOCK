@@ -1,0 +1,19 @@
+repo = "testing"
+name = "parted"
+version = "3.6"
+timestamp = "2025-04-21 19:09:56"
+categories = [
+    "utils",
+    "cli",
+]
+description = "Disk patitioning tool"
+upstream = "https://git.savannah.gnu.org/git/parted.git"
+
+[[dependencies]]
+relpath = "main/dosfstools"
+optional = true
+runtime = false
+
+[source]
+kind = "Tarball"
+url = "https://ftp.gnu.org/gnu/parted/parted-3.6.tar.xz"
