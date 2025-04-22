@@ -36,6 +36,16 @@ with meson ninja
 
 _cfg_opts=(
     -D systemd=disabled
+    -D dconf=disabled
+    -D docbook_docs=disabled
+    -D gtkdoc=disabled
+    -D malcontent=disabled
+    -D man=disabled
+
+    -D libzstd=enabled
+    -D seccomp=enabled
+    -D xauth=enabled
+
     -D tests=false
 )
 
