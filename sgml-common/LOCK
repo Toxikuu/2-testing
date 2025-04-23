@@ -1,7 +1,7 @@
 repo = "testing"
 name = "sgml-common"
 version = "0.6.3"
-timestamp = "2025-04-15 23:12:10"
+timestamp = "2025-04-22 21:10:36"
 categories = [
     "utils",
     "doc",
@@ -9,6 +9,7 @@ categories = [
 description = "Tools for maintaining centralized SGML catalogs"
 extra = ["https://www.linuxfromscratch.org/patches/blfs/svn/sgml-common-0.6.3-manpage-1.patch"]
 upstream = "https://docbook.org/xml/"
+version_command = "no"
 
 [[dependencies]]
 relpath = "main/bash"
