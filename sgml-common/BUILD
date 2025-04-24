@@ -1,11 +1,11 @@
-# WARNING: This package is being used to test currently-unreleased 2 features
+# WARN: This package is being used to test currently-unreleased 2 features
 
 NAME="sgml-common"
 VERS="0.6.3"
 DESC="Tools for maintaining centralized SGML catalogs"
 CATG="utils doc"
 UPST="https://docbook.org/xml/"
-SKIP_FETCH_VERSION=1
+VCMD="no"
 DEPS=(
     "bash"
 )
